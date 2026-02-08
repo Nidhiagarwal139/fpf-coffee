@@ -1,0 +1,217 @@
+﻿
+> fpf-coffee@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : (node:8036) 
+[MODULE_TYPELESS_PACKAG
+E_JSON] Warning: 
+Module type of file:///
+C:/Users/Nidhi/Download
+s/ezgif-8b55ef1bbc0d016
+4-jpg/fpf-coffee/tailwi
+nd.config.ts?id=1770572
+719968 is not 
+specified and it 
+doesn't parse as 
+CommonJS.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ((node:8036) [   
+ MO...se as CommonJ    
+S.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Reparsing as ES module 
+because module syntax 
+was detected. This 
+incurs a performance 
+overhead.
+To eliminate this 
+warning, add "type": 
+"module" to C:\Users\Ni
+dhi\Downloads\ezgif-8b5
+5ef1bbc0d0164-jpg\fpf-c
+offee\package.json.
+(Use `node 
+--trace-warnings ...` 
+to show where the 
+warning was created)
+Error: Cannot apply 
+unknown utility class 
+`text-white`
+    [2m[at 
+onInvalidCandidate (C:\
+Users\Nidhi\Downloads\e
+zgif-8b55ef1bbc0d0164-j
+pg\fpf-coffee\node_modu
+les\tailwindcss\dist\li
+b.js:21:1511)][0m
+    [2m[at Te (C:\User
+s\Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg\f
+pf-coffee\node_modules\
+tailwindcss\dist\lib.js
+:16:36652)][0m
+    [2m[at C:\Users\Ni
+dhi\Downloads\ezgif-8b5
+5ef1bbc0d0164-jpg\fpf-c
+offee\node_modules\tail
+windcss\dist\lib.js:21:
+355][0m
+    [2m[at Rr (C:\User
+s\Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg\f
+pf-coffee\node_modules\
+tailwindcss\dist\lib.js
+:3:1718)][0m
+    [2m[at _ (C:\Users
+\Nidhi\Downloads\ezgif-
+8b55ef1bbc0d0164-jpg\fp
+f-coffee\node_modules\t
+ailwindcss\dist\lib.js:
+3:1377)][0m
+    [2m[at $e (C:\User
+s\Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg\f
+pf-coffee\node_modules\
+tailwindcss\dist\lib.js
+:21:172)][0m
+    [2m[at un (C:\User
+s\Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg\f
+pf-coffee\node_modules\
+tailwindcss\dist\lib.js
+:38:294)][0m
+    [2m[at async cn (C
+:\Users\Nidhi\Downloads
+\ezgif-8b55ef1bbc0d0164
+-jpg\fpf-coffee\node_mo
+dules\tailwindcss\dist\
+lib.js:38:631)][0m
+    [2m[at async Xr (C
+:\Users\Nidhi\Downloads
+\ezgif-8b55ef1bbc0d0164
+-jpg\fpf-coffee\node_mo
+dules\@tailwindcss\node
+\dist\index.js:10:3417)
+][0m
+    [2m[at async I (C:
+\Users\Nidhi\Downloads\
+ezgif-8b55ef1bbc0d0164-
+jpg\fpf-coffee\node_mod
+ules\@tailwindcss\postc
+ss\dist\index.js:10:397
+7)][0m
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./app/globals.css
+Error evaluating 
+Node.js code
+CssSyntaxError: 
+tailwindcss: C:\Users\N
+idhi\Downloads\ezgif-8b
+55ef1bbc0d0164-jpg\fpf-
+coffee\app\globals.css:
+1:1: Cannot apply 
+unknown utility class 
+`text-white`
+    at Input.error (nod
+e_modules/postcss/lib/i
+nput.js:135:16) [C:\Use
+rs\Nidhi\Downloads\ezgi
+f-8b55ef1bbc0d0164-jpg\
+fpf-coffee\.next\build\
+chunks\node_modules_fe6
+93df6._.js:4651:22]
+    at Root.error (node
+_modules/postcss/lib/no
+de.js:146:32) [C:\Users
+\Nidhi\Downloads\ezgif-
+8b55ef1bbc0d0164-jpg\fp
+f-coffee\.next\build\ch
+unks\node_modules_fe693
+df6._.js:928:38]
+    [at Object.Once (C:
+\Users\Nidhi\Downloads\
+ezgif-8b55ef1bbc0d0164-
+jpg\fpf-coffee\node_mod
+ules\@tailwindcss\postc
+ss\dist\index.js:10:691
+1)]
+    at async 
+LazyResult.runAsync (no
+de_modules/postcss/lib/
+lazy-result.js:293:11) 
+[C:\Users\Nidhi\Downloa
+ds\ezgif-8b55ef1bbc0d01
+64-jpg\fpf-coffee\.next
+\build\chunks\node_modu
+les_fe693df6._.js:6206:
+21]
+    at async transform 
+(turbopack:///[turbopac
+k-node]/transforms/post
+css.ts:70:34) [C:\Users
+\Nidhi\Downloads\ezgif-
+8b55ef1bbc0d0164-jpg\fp
+f-coffee\.next\build\ch
+unks\[root-of-the-serve
+r]__51225daf._.js:146:3
+6]
+    at async run (turbo
+pack:///[turbopack-node
+]/ipc/evaluate.ts:92:23
+) [C:\Users\Nidhi\Downl
+oads\ezgif-8b55ef1bbc0d
+0164-jpg\fpf-coffee\.ne
+xt\build\chunks\[root-o
+f-the-server]__974941ed
+._.js:443:31]
+
+Import trace:
+  Client Component 
+Browser:
+    ./app/globals.css 
+[Client Component 
+Browser]
+    ./app/layout.tsx 
+[Server Component]
+
+
+    at async transform 
+(turbopack:///[turbopac
+k-node]/transforms/post
+css.ts:70:34) [C:\Users
+\Nidhi\Downloads\ezgif-
+8b55ef1bbc0d0164-jpg\fp
+f-coffee\.next\build\ch
+unks\[root-of-the-serve
+r]__51225daf._.js:146:3
+6])
+    at async run (turbo
+pack:///[turbopack-node
+]/ipc/evaluate.ts:92:23
+) [C:\Users\Nidhi\Downl
+oads\ezgif-8b55ef1bbc0d
+0164-jpg\fpf-coffee\.ne
+xt\build\chunks\[root-o
+f-the-server]__974941ed
+._.js:443:31])

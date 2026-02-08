@@ -1,0 +1,341 @@
+﻿
+> fpf-coffee@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : Error: 
+Can't resolve 'tailwi
+ndcss-animate' in 'C:
+\Users\Nidhi\Download
+s\ezgif-8b55ef1bbc0d0
+164-jpg\fpf-coffee\ap
+p'
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : 
+NotSpecifi    ed: 
+(Error: Can't     
+re...fpf-coffee\ap   
+ p':String) [], Rem  
+  oteException
+    + 
+FullyQualifiedEr    
+rorId : NativeComm   
+ andError
+ 
+    [2m[at 
+finishWithoutResolve 
+(C:\Users\Nidhi\Downl
+oads\ezgif-8b55ef1bbc
+0d0164-jpg\fpf-coffee
+\node_modules\enhance
+d-resolve\lib\Resolve
+r.js:586:18)][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\Resolver.js:678:1
+4][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\Resolver.js:739:5
+][0m
+    [2m[at eval 
+(eval at create (C:\U
+sers\Nidhi\Downloads\
+ezgif-8b55ef1bbc0d016
+4-jpg\fpf-coffee\node
+_modules\tapable\lib\
+HookCodeFactory.js:31
+:10), <anonymous>:15:
+1)][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\Resolver.js:739:5
+][0m
+    [2m[at eval 
+(eval at create (C:\U
+sers\Nidhi\Downloads\
+ezgif-8b55ef1bbc0d016
+4-jpg\fpf-coffee\node
+_modules\tapable\lib\
+HookCodeFactory.js:31
+:10), <anonymous>:27:
+1)][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\DescriptionFilePl
+ugin.js:89:43][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\Resolver.js:739:5
+][0m
+    [2m[at eval 
+(eval at create (C:\U
+sers\Nidhi\Downloads\
+ezgif-8b55ef1bbc0d016
+4-jpg\fpf-coffee\node
+_modules\tapable\lib\
+HookCodeFactory.js:31
+:10), <anonymous>:15:
+1)][0m
+    [2m[at C:\Users\
+Nidhi\Downloads\ezgif
+-8b55ef1bbc0d0164-jpg
+\fpf-coffee\node_modu
+les\enhanced-resolve\
+lib\Resolver.js:739:5
+][0m {
+  details: "resolve '
+tailwindcss-animate' 
+in 'C:\\Users\\Nidhi\
+\Downloads\\ezgif-8b5
+5ef1bbc0d0164-jpg\\fp
+f-coffee\\app'\n" +
+    '  Parsed 
+request is a 
+module\n' +
+    '  using 
+description file: C:\
+\Users\\Nidhi\\Downlo
+ads\\ezgif-8b55ef1bbc
+0d0164-jpg\\fpf-coffe
+e\\package.json 
+(relative path: 
+./app)\n' +
+    '    resolve as 
+module\n' +
+    "      C:\\Users\
+\Nidhi\\Downloads\\ez
+gif-8b55ef1bbc0d0164-
+jpg\\fpf-coffee\\app\
+\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    '      looking 
+for modules in C:\\Us
+ers\\Nidhi\\Downloads
+\\ezgif-8b55ef1bbc0d0
+164-jpg\\fpf-coffee\\
+node_modules\n' +
+    '        single 
+file module\n' +
+    '          using 
+description file: C:\
+\Users\\Nidhi\\Downlo
+ads\\ezgif-8b55ef1bbc
+0d0164-jpg\\fpf-coffe
+e\\package.json 
+(relative path: ./nod
+e_modules/tailwindcss
+-animate)\n' +
+    '            no 
+extension\n' +
+    "              C:
+\\Users\\Nidhi\\Downl
+oads\\ezgif-8b55ef1bb
+c0d0164-jpg\\fpf-coff
+ee\\node_modules\\tai
+lwindcss-animate 
+doesn't exist\n" +
+    '            
+.js\n' +
+    "              C:
+\\Users\\Nidhi\\Downl
+oads\\ezgif-8b55ef1bb
+c0d0164-jpg\\fpf-coff
+ee\\node_modules\\tai
+lwindcss-animate.js 
+doesn't exist\n" +
+    '            
+.json\n' +
+    "              C:
+\\Users\\Nidhi\\Downl
+oads\\ezgif-8b55ef1bb
+c0d0164-jpg\\fpf-coff
+ee\\node_modules\\tai
+lwindcss-animate.json
+ doesn't exist\n" +
+    '            
+.node\n' +
+    "              C:
+\\Users\\Nidhi\\Downl
+oads\\ezgif-8b55ef1bb
+c0d0164-jpg\\fpf-coff
+ee\\node_modules\\tai
+lwindcss-animate.node
+ doesn't exist\n" +
+    '            
+.ts\n' +
+    "              C:
+\\Users\\Nidhi\\Downl
+oads\\ezgif-8b55ef1bb
+c0d0164-jpg\\fpf-coff
+ee\\node_modules\\tai
+lwindcss-animate.ts 
+doesn't exist\n" +
+    "        C:\\User
+s\\Nidhi\\Downloads\\
+ezgif-8b55ef1bbc0d016
+4-jpg\\fpf-coffee\\no
+de_modules\\tailwindc
+ss-animate doesn't 
+exist\n" +
+    "      C:\\Users\
+\Nidhi\\Downloads\\ez
+gif-8b55ef1bbc0d0164-
+jpg\\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    "      C:\\Users\
+\Nidhi\\Downloads\\no
+de_modules doesn't 
+exist or is not a 
+directory\n" +
+    "      C:\\Users\
+\Nidhi\\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    "      C:\\Users\
+\node_modules 
+doesn't exist or is 
+not a directory\n" +
+    "      
+C:\\node_modules 
+doesn't exist or is 
+not a directory"
+}
+
+> Build error 
+occurred
+Error: Turbopack 
+build failed with 1 
+errors:
+./app/globals.css
+Error evaluating 
+Node.js code
+CssSyntaxError: 
+tailwindcss: C:\Users
+\Nidhi\Downloads\ezgi
+f-8b55ef1bbc0d0164-jp
+g\fpf-coffee\app\glob
+als.css:1:1: Can't 
+resolve 'tailwindcss-
+animate' in 'C:\Users
+\Nidhi\Downloads\ezgi
+f-8b55ef1bbc0d0164-jp
+g\fpf-coffee\app'
+    at Input.error (n
+ode_modules/postcss/l
+ib/input.js:135:16) [
+C:\Users\Nidhi\Downlo
+ads\ezgif-8b55ef1bbc0
+d0164-jpg\fpf-coffee\
+.next\build\chunks\no
+de_modules_fe693df6._
+.js:4651:22]
+    at Root.error (no
+de_modules/postcss/li
+b/node.js:146:32) [C:
+\Users\Nidhi\Download
+s\ezgif-8b55ef1bbc0d0
+164-jpg\fpf-coffee\.n
+ext\build\chunks\node
+_modules_fe693df6._.j
+s:928:38]
+    [at Object.Once (
+C:\Users\Nidhi\Downlo
+ads\ezgif-8b55ef1bbc0
+d0164-jpg\fpf-coffee\
+node_modules\@tailwin
+dcss\postcss\dist\ind
+ex.js:10:6911)]
+    at async 
+LazyResult.runAsync (
+node_modules/postcss/
+lib/lazy-result.js:29
+3:11) [C:\Users\Nidhi
+\Downloads\ezgif-8b55
+ef1bbc0d0164-jpg\fpf-
+coffee\.next\build\ch
+unks\node_modules_fe6
+93df6._.js:6206:21]
+    at async 
+transform (turbopack:
+///[turbopack-node]/t
+ransforms/postcss.ts:
+70:34) [C:\Users\Nidh
+i\Downloads\ezgif-8b5
+5ef1bbc0d0164-jpg\fpf
+-coffee\.next\build\c
+hunks\[root-of-the-se
+rver]__51225daf._.js:
+146:36]
+    at async run (tur
+bopack:///[turbopack-
+node]/ipc/evaluate.ts
+:92:23) [C:\Users\Nid
+hi\Downloads\ezgif-8b
+55ef1bbc0d0164-jpg\fp
+f-coffee\.next\build\
+chunks\[root-of-the-s
+erver]__974941ed._.js
+:443:31]
+
+Import trace:
+  Client Component 
+Browser:
+    
+./app/globals.css 
+[Client Component 
+Browser]
+    ./app/layout.tsx 
+[Server Component]
+
+
+    at async 
+transform (turbopack:
+///[turbopack-node]/t
+ransforms/postcss.ts:
+70:34) [C:\Users\Nidh
+i\Downloads\ezgif-8b5
+5ef1bbc0d0164-jpg\fpf
+-coffee\.next\build\c
+hunks\[root-of-the-se
+rver]__51225daf._.js:
+146:36])
+    at async run (tur
+bopack:///[turbopack-
+node]/ipc/evaluate.ts
+:92:23) [C:\Users\Nid
+hi\Downloads\ezgif-8b
+55ef1bbc0d0164-jpg\fp
+f-coffee\.next\build\
+chunks\[root-of-the-s
+erver]__974941ed._.js
+:443:31])
